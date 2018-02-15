@@ -1,3 +1,3 @@
-Introduction to Computer Science
+# Introduction to Computer Science
 
-Exercises 1,3,4,8
+# Exercises 1,3,4,8
