@@ -8,7 +8,7 @@ for z in range(1000):
     matrix = [[0 for x in range(5)] for y in range(100)]
     ranums = [0 for x in range(5)]
 
-    #Append random values for 2 dimention list
+    #Append random values for 2 dimentional list
     for x in range(100):
         ranums = random.sample(xrange(1,81),5)
         for y in range(5):
