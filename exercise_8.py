@@ -4,9 +4,9 @@ import random
 num = [random.randrange(-30,31,1) for _ in range(30)]
 check = True
 
-for i in range(5):
-    for y in range(i+1,5):
-	for z in range(y+1,5):
+for i in range(30):
+    for y in range(i+1,30):
+	for z in range(y+1,30):
             if num[i] + num[y] + num[z] == 0:
 		print "The combination is",num[i],',',num[y],',',num[z]
                 check = False
