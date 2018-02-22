@@ -1,8 +1,9 @@
 import random
 
-#Append random values in list, where numbers can exist more than one
-num = [random.randrange(-30,31,1) for _ in range(30)]
+num = random.sample(range(-30,31),30)
 check = True
+
+print "The Random numbers are:\n", num , "\n\n"
 
 for i in range(30):
     for y in range(i+1,30):
