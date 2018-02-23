@@ -34,9 +34,8 @@ for z in range(1000):
                 ranums[y] = matrix[x][y]
             if set(ranums).issubset(final):
                 check = False 
-             #   print ranums , final
-        lenght = lenght + 1
+        lenght += 1
         final[lenght] = selected[lenght]
 
-    avg = avg + (lenght+1)
+    avg = avg + lenght
 print "Average for bingo(1000 tries) is: " , avg/1000
